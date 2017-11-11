@@ -1,0 +1,25 @@
+{
+  "name": "tpx-sidebar-navigation",
+  "version": "1.0.0",
+  "author": "ThemePixels",
+  "devDependencies": {
+    "bootstrap": "v4.0.0-beta",
+    "font-awesome": "fontawesome#^4.7.0",
+    "Ionicons": "ionicons#^2.0.1",
+    "perfect-scrollbar": "^0.8.1"
+  },
+  "exportsOverride": {
+    "font-awesome": {
+      "fonts": "fonts/*",
+      "css": "css/font-awesome.css"
+    },
+    "Ionicons": {
+      "fonts": "fonts/*",
+      "css": "css/ionicons.css"
+    },
+    "perfect-scrollbar": {
+      "css": "css/*",
+      "js": "js/*"
+    }
+  }
+}
